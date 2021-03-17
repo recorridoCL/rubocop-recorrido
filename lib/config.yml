@@ -23,7 +23,7 @@ Metrics/MethodLength:
   CountAsOne: []
   CountComments: false
   IgnoredMethods: []
-  Max: 9
+  Max: 8
 
 Metrics/ParameterLists:
   Max: 4
