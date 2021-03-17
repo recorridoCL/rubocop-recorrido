@@ -1,0 +1,48 @@
+---
+inherit_mode:
+  merge:
+    - Exclude
+    - IgnoredMethods
+
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rake
+  - rubocop-rspec
+  - rubocop-sorbet
+
+Metrics/BlockLength:
+  IgnoredMethods:
+    - context
+    - describe
+    -
+Metrics/MethodLength:
+  CountAsOne: []
+  CountComments: false
+  IgnoredMethods: []
+  Max: 9
+
+Metrics/ParameterLists:
+  Max: 4
+
+Style/AccessorGrouping:
+  EnforcedStyle: separated
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/EmptyCaseCondition:
+  Enabled: false
+
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
+Sorbet/EnforceSignatures:
+  Enabled: true
+
+Sorbet/FalseSigil:
+  Enabled: false
+
+Sorbet/StrictSigil:
+  Enabled: true
+  Exclude: ['db/**/*', 'spec/**/*']

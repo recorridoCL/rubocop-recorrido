@@ -1,0 +1,6 @@
+---
+inherit_gem:
+  rubocop-recorrido: lib/config.yml
+
+AllCops:
+  NewCops: enable
