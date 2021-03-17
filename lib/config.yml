@@ -11,6 +11,9 @@ require:
   - rubocop-rspec
   - rubocop-sorbet
 
+AllCops:
+  NewCops: enable
+
 Metrics/BlockLength:
   IgnoredMethods:
     - context
