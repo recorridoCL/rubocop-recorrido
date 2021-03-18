@@ -9,11 +9,11 @@ Gem::Specification.new do |spec|
   spec.email         = ['roanvilina@gmail.com']
 
   spec.summary       = 'Rubocop setup used by RecorridoCL'
-  spec.homepage      = 'https://github.com/roanvilina/rubocop-recorrido'
+  spec.homepage      = 'https://github.com/vaporyhumo/rubocop-recorrido'
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/roanvilina/rubocop-recorrido'
-  spec.metadata['changelog_uri'] = 'https://github.com/roanvilina/rubocop-recorrido/blob/main/CHANGELOG.md'
+  spec.metadata['source_code_uri'] = 'https://github.com/vaporyhumo/rubocop-recorrido'
+  spec.metadata['changelog_uri'] = 'https://github.com/vaporyhumo/rubocop-recorrido/blob/main/CHANGELOG.md'
 
   spec.files = Dir['lib/**/*']
   spec.executables   = []
