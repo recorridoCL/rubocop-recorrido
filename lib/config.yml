@@ -20,7 +20,7 @@ Metrics/BlockLength:
     - describe
 
 Metrics/MethodLength:
-  CountAsOne: ['array', 'hash', 'heredoc']
+  CountAsOne: []
   CountComments: false
   IgnoredMethods: []
   Max: 8
