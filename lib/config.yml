@@ -50,7 +50,7 @@ Sorbet/FalseSigil:
   Enabled: false
 
 Style/MethodCallWithArgsParentheses:
-  Enabled: true
+  Enabled: false
   IgnoreMacros: true
   Exclude:
     - 'Gemfile'
