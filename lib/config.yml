@@ -34,6 +34,9 @@ Style/AccessorGrouping:
 Style/AsciiComments:
   Enabled: false
 
+Style/Documentation:
+  Enabled: false
+
 Style/EmptyCaseCondition:
   Enabled: false
 
@@ -45,6 +48,23 @@ Sorbet/EnforceSignatures:
 
 Sorbet/FalseSigil:
   Enabled: false
+
+Style/MethodCallWithArgsParentheses:
+  Enabled: false
+  IgnoreMacros: true
+  Exclude:
+    - 'Gemfile'
+  IgnoredMethods:
+    - describe
+    - require
+    - to
+    - not_to
+  IgnoredPatterns: []
+  IncludedMacros: []
+  EnforcedStyle: require_parentheses
+  SupportedStyles:
+    - require_parentheses
+    - omit_parentheses
 
 Sorbet/StrictSigil:
   Enabled: true
